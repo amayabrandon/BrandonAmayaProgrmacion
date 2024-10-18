@@ -14,6 +14,7 @@ def es_palindromo(letra):
   # Comparar si la palabra es igual a su inversa
   return palindromo==comparacion
 
+  #Pruebas Unitarias
 class TestPalindromo(unittest.TestCase):
     def test_palindromo_simple(self):
         self.assertTrue(es_palindromo("radar"))
